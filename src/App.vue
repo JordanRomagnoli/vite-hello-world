@@ -3,7 +3,7 @@
 /*
     Importazione componente
 */
-import AppHeader from './components/AppHeader.vue';
+import AppTitle from './components/AppTitle.vue';
 
 export default {
     data() {
@@ -16,7 +16,7 @@ export default {
     */
     components: {
 
-        AppHeader
+        AppTitle
     },
 }
 </script>
@@ -26,18 +26,8 @@ export default {
         <!--
             Utilizzo del componente
         -->
-        <AppHeader/>
-        <h1>
-            Ciao Ragazzi
-        </h1>
-
-        <p>
-            {{ count }}
-        </p>
-
-        <button @click="count++">
-            Incrementa count
-        </button>
+        <AppTitle/>
+        
     </div>
 </template>
 

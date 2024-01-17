@@ -2,14 +2,14 @@
     export default {
         data() {
             return { 
-                title: 'Ciao ragazzi' 
+                title: 'La mia prima app con Vite!' 
             }
         },
     }
     </script>
 
 <template>
-    <header class="main-title">
+    <header>
         <h1>
             {{ title }}
         </h1>
@@ -18,7 +18,7 @@
 
 <style scoped>
     h1{
-        color: aquamarine;
+        color: black;
         text-align: center;
     }
 </style>
